@@ -8,7 +8,6 @@ function Home() {
       <Navbar /> {/* Render the navbar here */}
 
       <section className="section background">
-        
           <div className="firsthalf">
             <h1 className="text-big">Hi, I'm Brynn LeBlanc</h1>
             <p className="text-small">
@@ -18,9 +17,7 @@ function Home() {
           <div className="secondhalf">
             {/* optional image or content */}
           </div>
-        
       </section>
-
       <footer className="footer">
         <p className="text-footer">footer?</p>
       </footer>
