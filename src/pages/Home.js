@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import logo from '../assets/websitelogo.png';
+import {Link} from 'react-router-dom';
+import './Home.css';
 
 function Home() {
   return (
@@ -13,14 +15,14 @@ function Home() {
             <p className="text-small">
               A recent graduate of Vanderbilt University working in Software Development.
             </p>
+            <Link to="/contact" className="btn-connect">
+              Let’s Connect
+            </Link>
           </div>
           <div className="secondhalf">
             {/* optional image or content */}
           </div>
       </section>
-      <footer className="footer">
-        <p className="text-footer">footer?</p>
-      </footer>
     </>
   );
 }

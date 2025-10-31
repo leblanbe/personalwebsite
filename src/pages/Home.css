@@ -1,0 +1,40 @@
+.section.background {
+    position: relative;             /* needed for overlay */
+    display: flex;
+    align-items: center;
+    height: 50vh;                  
+    padding-top: 80px;              /* space for navbar */
+    padding-left: 50px;             /* space from left edge */
+    color: black;
+    background: url('../assets/HomepageBackground.png') right/cover no-repeat;
+    overflow: hidden;               /* prevent overflow from overlay */
+}
+
+/* Fade overlay: image -> white from right to left */
+.section.background::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to left, rgba(255,255,255,0) 20%, rgba(255,255,255,1) 100%);
+    
+    z-index: 1;                     /* sits above the image */
+}
+
+.btn-connect {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #ADB9AD; /* Sage Green */
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100px;
+  text-align: left;
+}
