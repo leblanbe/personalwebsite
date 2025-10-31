@@ -1,0 +1,70 @@
+.profile-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    margin-top: 20px;
+    display: block;
+}
+
+.what-i-do {
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  align-items: center;      /* centers vertically */
+  text-align: center;       /* centers text inside */
+  background-color: #f8f8f8; /* optional subtle background */
+}
+
+.what-i-do h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.section-divider {
+  width: 100%;
+  height: 50px; /* thickness of the line */
+  background-color: #ADB9AD; /* sage green */
+  margin: 40px 0; /* space above and below */
+}
+
+.skills-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f8f8f8; /* optional */
+}
+
+/* Grid container */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
+  /* This sets a minimum width per skill item and allows the number of items per row to adjust */
+  gap: 40px; 
+  justify-items: center; /* center each item in its grid cell */
+}
+
+/* Individual skill card */
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.skill-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.skill-description {
+    font-size: 0.9rem;
+    color: #555;
+}

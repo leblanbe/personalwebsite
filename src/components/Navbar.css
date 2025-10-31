@@ -21,6 +21,7 @@
 
 .logo img {
     width: 5vw;
+    min-width: 50px;
 }
 
 .nav-list {
@@ -31,7 +32,7 @@
 
 .nav-list li {
     list-style: none;
-    padding: 26px 30px;
+    padding: 3vw;
 }
 
 .nav-list li a {
