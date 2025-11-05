@@ -9,18 +9,7 @@
     display: block;
 }
 
-.what-i-do {
-  display: flex;
-  justify-content: center;  /* centers horizontally */
-  align-items: center;      /* centers vertically */
-  text-align: center;       /* centers text inside */
-  background-color: #f8f8f8; /* optional subtle background */
-}
 
-.what-i-do h1 {
-  font-size: 2rem;
-  font-weight: 500;
-}
 
 .section-divider {
   width: 100%;
@@ -67,4 +56,47 @@
 .skill-description {
     font-size: 0.9rem;
     color: #555;
+}
+
+.revolving-door {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 50px auto;
+  width: 100%;
+  padding: 60px 0;
+  background-color: #ADB9AD;
+  text-align: center;
+  font-family: "Palatino", "PT Serif", "Palatino Linotype", "Book Antiqua", serif;
+}
+
+.hobby-card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+  transition: all 0.5s ease-in-out;
+}
+
+.hobby-icon {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.2s;
+}
+
+.arrow:hover {
+  transform: scale(1.2);
 }

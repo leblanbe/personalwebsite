@@ -7,8 +7,7 @@ import './Home.css';
 function Home() {
   return (
     <>
-      <Navbar /> {/* Render the navbar here */}
-
+      <Navbar />
       <section className="section background">
           <div className="firsthalf">
             <h1 className="text-big">Hi, I'm Brynn LeBlanc</h1>
@@ -20,7 +19,6 @@ function Home() {
             </Link>
           </div>
           <div className="secondhalf">
-            {/* optional image or content */}
           </div>
       </section>
     </>

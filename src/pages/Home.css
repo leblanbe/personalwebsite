@@ -2,7 +2,7 @@
     position: relative;             /* needed for overlay */
     display: flex;
     align-items: center;
-    height: 50vh;                  
+    height: 70vh;                  
     padding-top: 80px;              /* space for navbar */
     padding-left: 50px;             /* space from left edge */
     color: black;

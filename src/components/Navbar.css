@@ -5,6 +5,8 @@
     position: sticky;
     top: 0;
     cursor: pointer;
+    background-color: white;
+    z-index: 1000;
 }
 
 .background {
@@ -22,6 +24,7 @@
 .logo img {
     width: 5vw;
     min-width: 50px;
+    max-width:65px;
 }
 
 .nav-list {

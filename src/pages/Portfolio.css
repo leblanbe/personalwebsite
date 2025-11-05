@@ -1,0 +1,39 @@
+.experience-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 80px;
+  border-bottom: 5px solid #ADB9AD; /* soft divider line */
+  text-align: center;
+  background-color: #ADB9AD;
+}
+
+.experience-section:nth-child(even) {
+  background-color: #f8f8f8; /* alternating background for subtle contrast */
+}
+
+.cc-logo {
+  width: 25vw;
+  max-width: 180px;
+  height: auto;
+}
+
+.experience-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: "Palatino", "PT Serif", "Palatino Linotype", "Book Antiqua", serif;
+}
+
+.experience-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  font-family: "Palatino", "PT Serif", "Palatino Linotype", "Book Antiqua", serif;
+}
+
+.text-big-portfolio{
+    font-weight: 500;
+    font-family: "Palatino", "PT Serif", "Palatino Linotype", "Book Antiqua", serif;
+    font-size: 50px;
+}
